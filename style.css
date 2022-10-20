@@ -5,19 +5,9 @@
   box-sizing: border-box;
 }
 
-body {
+.body-style {
   background: #8338EC;
   color: white;
-}
-
-#header p {
-  color: #3A86FF;
-  font-size: 100px;
-  background: #FFBE0B;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
 }
 
 .container {
@@ -72,3 +62,12 @@ nav ul li::after {
 nav ul li:hover::after {
   width: 100%;
 }
+
+#header p {
+  color: #3A86FF;
+  font-size: 100px;
+  background: #FFBE0B;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
