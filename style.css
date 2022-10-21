@@ -1,73 +1,37 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  box-sizing: border-box;
+body {
+  background-color: #00cfc1
 }
 
-.body-style {
-  background: #8338EC;
-  color: white;
+.navbar > li {
+  list-style-type: none;
+  display: inline;
+  float: right;
+  margin: 20px 20px 20px 20px;
+  font-size: 25px;
+  color: ;
+  text-shadow: 2px 2px #af3800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container {
-  padding: 10px 10%;
-
-}
-
-nav {
-  display: flexbox;
-  /* This is what moved the nav bar to the right */
-  direction: rtl;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-#river {
-  border-radius: 20%;
-  max-width: 25%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 5px 5px #FF006E;
-  
-}
-
-nav ul li{
-  /* This is what changed the menu items to side by side */
-  display: inline-block;
-  /* This gets rid of any bullets, etc */
-  list-style: none;
-  /* For margin the first is top and bottom and the second  is left and right */
-  margin: 10px 20px;  
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  position: relative;
-
-}
-
-nav ul li::after {
-  content: '';
-  width: 0%;
-  height: 3px;
-  background: #3A86FF;
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-}
-
-nav ul li:hover::after {
-  width: 100%;
-}
-
-#header p {
-  color: #3A86FF;
-  font-size: 100px;
-  background: #FFBE0B;
-  height: 150px;
+.header{
   display: flex;
-  align-items: center;
-  margin-left: 50px;
+  color: #af3800;
+  background-color: #00ffe7;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  font-size: 100px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  border-radius: 20px;
+  border: 15px #af3800;
+  border-style: groove;
+}
+
+.header:hover {
+  background-color: antiquewhite;
+}
+
+.river {
+  width: 200px;
+  height: auto;
+}
