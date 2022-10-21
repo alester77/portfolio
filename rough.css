@@ -1,0 +1,30 @@
+#workinfo{
+  display: flex;
+  justify-content: space-around;
+  inline-size: auto;
+  line-height: 100px;
+}
+
+#screenshot{
+  width: 600px;
+  height: auto;
+  padding: 100px 30px 100px 30px;
+  border-color: #af3800;
+  background-color: #5c008b;
+}
+
+#almost {
+  width: 500px;
+  height: auto;
+  padding: 80px 30px 78px 30px;
+  background-color: #fe621d;
+}
+
+#waiting {
+  align-content: center;
+  width: 500px;
+  height: auto;
+  padding: 80px 30px 78px 30px;
+  border: 4px #00ffe7;
+  background-color: #af3800;
+}
