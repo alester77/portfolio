@@ -1,4 +1,8 @@
-#workinfo{
+
+
+
+/* Photo try 1 */
+/* #workinfo{ 
   display: flex;
   justify-content: space-around;
   inline-size: auto;
@@ -27,4 +31,16 @@
   padding: 80px 30px 78px 30px;
   border: 4px #00ffe7;
   background-color: #af3800;
-}
+}*/
+
+/* photo try 2 */
+/* <div class="gallery">
+        <figure class="gallery-item gallery-item--1">
+          <img src="/images/screen.png" class="gallery__img" alt="Website screenshot">
+        </figure>
+        <figure class="gallery-item gallery-item--2">
+          <img src="/images/almost.jpg" class="gallery__img" alt="Project Rendering">
+        </figure>  
+        <figure class="gallery-item gallery-item--3">
+          <img src="/images/waiting.jpg" class="gallery__img"alt="Project Rendering">
+        </figure>  */

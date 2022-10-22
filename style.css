@@ -8,13 +8,30 @@ p {
 
 }
 
-.navbar > a {
-  list-style-type: none;
+h1 {
+
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+li {
+  height: 35vh;
+}
+
+nav {
+  list-style: none;
+}
+
+.navbar a {
   display: inline;
   float: right;
   margin: 20px 20px 20px 20px;
   font-size: 25px;
-  color: ;
+  color: #ff006e;
   text-shadow: 2px 2px #af3800;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -62,16 +79,6 @@ p {
   line-height: 100px;
 }
 
-.work{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
-  font-size: 35px;
-  color: black;
-
-}
-
-
 
 .contact{
   display: flex;
@@ -79,26 +86,36 @@ p {
   margin-top: 50px;
   font-size: 35px;
   color: black;
-
 }
 
-#contactme{
-  display: flex;
-  justify-content: space-around;
-  inline-size: auto;
-  margin-top: 50px;
+.contact p{
   text-align: center;
 }
 
-.gallery_img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+
+.work{
+  display: flex;
+  justify-content: space-around;
+  font-size: 35px;
+  color: black;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
-.gallery_item--1 {
-  grid-column: ;
+/* This is the Work photos along with the ul and li elements at the top */
+.please {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  padding: 20px 20px 20px 20px;
 }
+
+.please::after {
+  max-width: 150%;
+  max-height: 150%;
+}
+
 
 
 
