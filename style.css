@@ -2,7 +2,7 @@
 /* I need help understanding how to organize CSS and follow the  logical flow */
 body {
   background-image: url(/images/space.jpg);
-  color: #ff006e;
+  color: #f8f4f6;
   font-family: font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -15,16 +15,15 @@ p {
 ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 /* Styling for the Nav bar */
 .navbar li {
   list-style: none;
-  background-color: #3a86ff;
   display: inline;
   float: right;
-  margin: 20px 20px 20px 20px;
+  margin: 7px;
   padding: 0;
   font-size: 25px;
 }
@@ -32,135 +31,81 @@ ul {
 .btn{
   text-decoration: none;
   font-size: 35px;
-  color: #ff006e;
+  color: white;
   border: 5px solid #ff006e;
-  background-color: white;
+  margin: 10px;
 }
 
 /* My name */
 .header{
   display: flex;
-  color: #5a189a;
-  background-color: #65def1;
+  color: white;
+  justify-content: center;
   margin: 20px 20px 20px 20px;
   padding: 20px 20px 20px 20px;
   font-size: 100px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  justify-content: center;
+
   border-radius: 20px;
   border: 15px #ff006e;
-  border-style: groove;
+  border-style:double;
 }
 
 .header:hover {
-  background-color: rgb(34, 224, 113);
+  background-color: #ff006e;
 }
 
 /* Why can't I get this stupid photo to go where I want? */
 .river {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto;
   width: 400px;
-  height: auto;
   border-radius: 100%;
   padding: 20px 20px 20px 20px;
   border: 10px solid #ff006e;
   transform: rotate(-10deg);
 }
 
+section {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+}
 
 /* About section */
 .about{
   display: flex;
   justify-content: space-around;
-  margin-top: 100px;
   font-size: 35px;
-  color: black;
-
-}
-
-#aboutinfo{
-  display: flex;
-  justify-content: space-around;
-  inline-size: auto;
-  line-height: 100px;
+  height: 20vh;
+  padding: 55px;
+  text-align: center;
 }
 
 /* Contact section */
 .contact{
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
   font-size: 35px;
-  color: black;
-}
-
-.contact p{
+  height: 20vh;
+  padding: 55px;
   text-align: center;
 }
 
 
 /* Below is the photos. I honestly don't really understand how I got these photos to 
-Line up this way. I need to format them to a column on smaller screens. And centered */
+Line up this way. I need to format them to a column on smaller screens. And centered 
+And why when I shrink the screen the margin isn't there?*/
 .work{
   display: flex;
   justify-content: space-around;
-  align-content: center;
   font-size: 35px;
-  color: black;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-
-.title{
-  display: inline-flex;
-}
-
-.photo{
-  height: 35vh;
-}
-
-/* This is the Work photos along with the ul and li elements at the top */
-.please {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: cover;
-  vertical-align: bottom;
-  padding: 20px 20px 20px 20px;
-  border: 10px solid #ff006e;
-}
-
-/* I need to make the project picture bigger. BUT IT WON'T */
-#bigger {
-  height
+  height: 20vh;
+  padding: 55px;
+  text-align: center;
 }
 
 
 
-/* Copied and pasted class notes for media adjustments. HELP. 
-I want the navbar to go into a column */
 
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
-
-/* Tablets */
-@media screen and (max-width: 992px) {
-  body {
-     
-    
-  }
-  .navbar {
-    flex-direction: column;
-  }
-}
-
-/* Large smartphones */
-@media screen and (max-width: 768px) {
-  nav {
-  }
-}
-
-/* Small smartphones */
-@media screen and (max-width: 576px) {
-
-}
+/* Still need to add media stuff! */
