@@ -10,13 +10,24 @@
 </head>
 
 <body>
-  <header class="header">Alexa Lester</header>
-    <nav class="navbar">
-      <a href= "#contactme" class="btn">Contact Me</a>
-      <a href= "#workinfo" class="btn">My Work</a>
-      <a href= "#aboutme" class="btn">About Me</a>
-      <img class="river"src="/images/Selfie.jpg" alt="Alexa at the River">
-    </nav>
+  <header class="header">Alexa Lester
+    
+  </header>
+    <!-- Functional nav bar -->
+  <nav class="navbar">
+      <li><a href= "#contactme" class="btn">Contact Me</a></li>
+      <li><a href= "#workinfo" class="btn">My Work</a></li>
+      <li><a href= "#aboutme" class="btn">About Me</a></li>
+  </nav>
+
+  <main>
+    <p>
+    <img class="river"src="/images/Selfie.jpg" alt="Alexa at the River">
+    </p>
+  </main>
+   
+      
+    
 
   <section>
     <h1 class="about" id="aboutme">About Me</h1>
@@ -27,10 +38,11 @@
 
   <section>
     <h1 class="work" id="workinfo">My Work</h1>
-    <ul>
-        <li><a href="https://alester77.github.io/module-1/"><img class="please" src="/images/screen.png" alt=""></a>
-        <li><a href="/pending.html"><img class="please" src="/images/almost.jpg" alt="Pending Work"></a></li>
-        <li><a href="/pending.html"><img class="please" src="/images/waiting.jpg" alt="Pending Work"></a></li>
+    <!-- Photos are done with titles and links. Done in a list for styling purposes -->
+    <ul> 
+        <li class="photo"><a href="https://alester77.github.io/module-1/"><img title="Horiseon Website" class="please" id="bigger" src="/images/screen.png" alt="Horiseon Website"></a>
+        <li class="photo"><a href="/pending.html"><img title="Pending" class="please" src="/images/almost.jpg" alt="Pending Work"></a></li>
+        <li class="photo"><a href="/pending.html"><img title="Pending" class="please" src="/images/waiting.jpg" alt="Pending Work"></a></li>
     </ul>  
   </section>
 

@@ -1,6 +1,9 @@
+
+/* I need help understanding how to organize CSS and follow the  logical flow */
 body {
-  background-color: #00cfc1;
-  color: #af3800;
+  background-image: url(/images/space.jpg);
+  color: #ff006e;
+  font-family: font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
@@ -8,9 +11,6 @@ p {
 
 }
 
-h1 {
-
-}
 
 ul {
   display: flex;
@@ -18,55 +18,63 @@ ul {
   justify-content: space-around;
 }
 
-li {
-  height: 35vh;
-}
-
-nav {
+/* Styling for the Nav bar */
+.navbar li {
   list-style: none;
-}
-
-.navbar a {
+  background-color: #3a86ff;
   display: inline;
   float: right;
   margin: 20px 20px 20px 20px;
+  padding: 0;
   font-size: 25px;
+}
+/* Styling for the Nav bar */
+.btn{
+  text-decoration: none;
+  font-size: 35px;
   color: #ff006e;
-  text-shadow: 2px 2px #af3800;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 5px solid #ff006e;
+  background-color: white;
 }
 
+/* My name */
 .header{
   display: flex;
-  color: #af3800;
-  background-color: #00ffe7;
+  color: #5a189a;
+  background-color: #65def1;
   margin: 20px 20px 20px 20px;
   padding: 20px 20px 20px 20px;
   font-size: 100px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   justify-content: center;
   border-radius: 20px;
-  border: 15px #af3800;
+  border: 15px #ff006e;
   border-style: groove;
 }
 
 .header:hover {
-  background-color: rgb(250, 173, 227);
+  background-color: rgb(34, 224, 113);
 }
 
+/* Why can't I get this stupid photo to go where I want? */
 .river {
-  float: right;
-  margin-right: 400px;
-  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 400px;
   height: auto;
   border-radius: 100%;
+  padding: 20px 20px 20px 20px;
+  border: 10px solid #ff006e;
+  transform: rotate(-10deg);
 }
 
+
+/* About section */
 .about{
   display: flex;
   justify-content: space-around;
-  margin-top: 800px;
+  margin-top: 100px;
   font-size: 35px;
   color: black;
 
@@ -79,7 +87,7 @@ nav {
   line-height: 100px;
 }
 
-
+/* Contact section */
 .contact{
   display: flex;
   justify-content: space-around;
@@ -93,13 +101,24 @@ nav {
 }
 
 
+/* Below is the photos. I honestly don't really understand how I got these photos to 
+Line up this way. I need to format them to a column on smaller screens. And centered */
 .work{
   display: flex;
   justify-content: space-around;
+  align-content: center;
   font-size: 35px;
   color: black;
   margin-bottom: 50px;
   margin-top: 50px;
+}
+
+.title{
+  display: inline-flex;
+}
+
+.photo{
+  height: 35vh;
 }
 
 /* This is the Work photos along with the ul and li elements at the top */
@@ -109,15 +128,39 @@ nav {
   object-fit: cover;
   vertical-align: bottom;
   padding: 20px 20px 20px 20px;
+  border: 10px solid #ff006e;
 }
 
-.please::after {
-  max-width: 150%;
-  max-height: 150%;
+/* I need to make the project picture bigger. BUT IT WON'T */
+#bigger {
+  height
 }
 
 
 
+/* Copied and pasted class notes for media adjustments. HELP. 
+I want the navbar to go into a column */
 
+/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
+/* Tablets */
+@media screen and (max-width: 992px) {
+  body {
+     
+    
+  }
+  .navbar {
+    flex-direction: column;
+  }
+}
 
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+  nav {
+  }
+}
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+
+}
