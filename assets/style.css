@@ -1,7 +1,7 @@
 
 /* I need help understanding how to organize CSS and follow the  logical flow */
 body {
-  background-image: url(/images/space.jpg);
+  background-image: url(/assets/images/space.jpg);
   color: #f8f4f6;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
