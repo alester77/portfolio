@@ -7,6 +7,6 @@
 
 ## Screenshots 
 <img src="/assets/images/screenshotsmall.png">
-<img src="/assets/images/screenbig.png>
+<img src="/assets/images/screenbig.png">
 
 
