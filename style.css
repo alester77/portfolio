@@ -79,6 +79,7 @@ footer{
   display: flex;
   justify-content: center;
   color: #ff006e;
+  margin: 100px;
 }
 
 /* About section */
@@ -96,12 +97,11 @@ footer{
 .contact{
   display: flex;
   justify-content: space-around;
-
   font-size: 35px;
   height: 20vh;
   padding: 55px;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 /* Section with my works and their pictures */
@@ -109,7 +109,6 @@ footer{
   display: flex;
   justify-content: space-around;
   font-size: 35px;
-  height: 20vh;
   padding: 55px;
   margin-top: 100px;
 }
@@ -123,17 +122,17 @@ footer{
 
 .gallery{
   position: relative;
-  height: 300px;
+  height: 25vh;
   width: auto;
   border: 10px solid #ff006e;
   margin-top: 20px;
+  
 }
 
 .title{
   position: relative;
-  font-size: 35px;
+  font-size: 30px;
   color: white;
-  text-shadow: 1px 1px;
   
 }
 
@@ -157,3 +156,24 @@ footer{
   }
   
 }
+@media screen and (max-width: 768px) {
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  ul {
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  ul .btn{
+    border: none;
+    font-size: 20px;
+   
+  }
+  img{
+    width: 100%;
+  }
+ 
