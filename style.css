@@ -67,9 +67,17 @@ ul {
 }
 
 section {
+  display: flex;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
+  align-content: center;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  color: #ff006e;
 }
 
 /* About section */
@@ -80,6 +88,7 @@ section {
   height: 20vh;
   padding: 55px;
   text-align: center;
+  margin-top: 100px;
 }
 
 /* Contact section */
@@ -90,22 +99,53 @@ section {
   height: 20vh;
   padding: 55px;
   text-align: center;
+  margin-top: 100px;
 }
 
-
-/* Below is the photos. I honestly don't really understand how I got these photos to 
-Line up this way. I need to format them to a column on smaller screens. And centered 
-And why when I shrink the screen the margin isn't there?*/
+/* Section with my works and their pictures */
 .work{
   display: flex;
   justify-content: space-around;
   font-size: 35px;
   height: 20vh;
   padding: 55px;
-  text-align: center;
+  margin-top: 100px;
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.gallery{
+  height: 300px;
+  width: auto;
+  border: 10px solid #ff006e;
+  margin-top: 20px;
+}
+
+.title{
+  position: relative;
+  font-size: 35px;
+  color: white;
+  text-shadow: 1px 1px;
 }
 
 
+.gallery:hover{
+  transform: scale(1.3);
+  opacity: 1;
+}
 
 
 /* Still need to add media stuff! */
+
+@media screen and (max-width: 992px) {
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

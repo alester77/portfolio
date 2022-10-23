@@ -19,9 +19,10 @@
   <main>
     <nav>
       <ul>
-        <li><a href="#contactme" class="btn">Contact Me</a></li>
-        <li><a href="#workinfo" class="btn">My Work</a></li>
-        <li><a href="#aboutme" class="btn">About Me</a></li>
+        <li><a href="#row" class="btn">About Me</a></li>
+        <li><a href="#row" class="btn">My Work</a></li>
+        <li><a href="#about" class="btn">Contact Me</a></li>
+        
       </ul>
     </nav>
 
@@ -32,44 +33,44 @@
 
 
 
-  <section class="about">
+  <section class="about" id="about">
     <h1>About Me</h1>
     <p>
       I'm Alexa and brand new to coding. <br>I hope soon I'll be able to make websites like this with ease.
     </p>
   </section>
 
-  <section class="work">
+  <!-- Work section broken into two elements for styling -->
+  <section class="work" id="row">
     <h1>My Work</h1>
       <p>
         These are some examples of my work.
       </p>
-    <!-- Photos are done with titles and links. Done in a list for styling purposes -->
   </section>  
   
   <section class="row">
-    <div class="column"></div>
-      <div class="content"></div>
-        <img src="/images/screen.png" alt="Horiseon Website">
-        <h3>Horiseon Website</h3>
-
-        
     
-    
-        <img src="/images/almost.jpg" alt="Pending">
-    <img src="/images/waiting.jpg" alt="Pending">
+      <a href="https://alester77.github.io/module-1/"><img class="gallery" src="/images/screen.png" alt="Horiseon Website"></a>
+        <figcaption class="title">Horiseon Website</figcaption>
+      <a href="/pending.html"><img class="gallery" src="/images/almost.jpg" alt="Pending"></a>
+        <figcaption class="title">Pending</figcaption>
+      <a href="/pending.html"><img class="gallery" src="/images/waiting.jpg" alt="Pending"></a>
+        <figcaption class="title">Pending</figcaption>
 
    
   </section>
 
-  <section class="contact">
+  <section class="contact" id="about">
     <h1>Contact Me</h1>
     <p class="contactinfo">Have any questions?<br> Here's how to find me.</p>
+    <p>alester0284@gmail.com</p>
 
   </section>
 
 
 
-
+<footer>
+  Made with pain and suffering
+</footer>
 
 </body>
