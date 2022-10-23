@@ -72,6 +72,7 @@ section {
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
   align-content: center;
+  line-height: 2.0;
 }
 
 footer{
@@ -95,11 +96,12 @@ footer{
 .contact{
   display: flex;
   justify-content: space-around;
+
   font-size: 35px;
   height: 20vh;
   padding: 55px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 300px;
 }
 
 /* Section with my works and their pictures */
@@ -114,12 +116,13 @@ footer{
 
 .row{
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
   align-content: center;
 }
 
 .gallery{
+  position: relative;
   height: 300px;
   width: auto;
   border: 10px solid #ff006e;
@@ -131,6 +134,7 @@ footer{
   font-size: 35px;
   color: white;
   text-shadow: 1px 1px;
+  
 }
 
 
@@ -143,6 +147,10 @@ footer{
 /* Still need to add media stuff! */
 
 @media screen and (max-width: 992px) {
+  
+  .river{
+    margin-top: 100px;
+  }
   .row{
     display: flex;
     flex-direction: column;
