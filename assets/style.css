@@ -1,5 +1,5 @@
 body {
-  background-image: url("../assets/images/space.jpg");
+  background: url("/assets/images/space.jpg");
   color: #f8f4f6;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
