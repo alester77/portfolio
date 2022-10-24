@@ -1,5 +1,3 @@
-
-/* I need help understanding how to organize CSS and follow the  logical flow */
 body {
   background-image: url("/assets/images/space.jpg");
   color: #f8f4f6;
@@ -141,9 +139,7 @@ footer{
 }
 
 a{
-  font-size: 25px;
-  background-color: #ff006e;
-  color: black;
+  color: white;
 }
 
 a[data-project] {
