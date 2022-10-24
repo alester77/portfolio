@@ -1,5 +1,5 @@
 body {
-  background: url("/assets/images/space.jpg");
+  background-image: url("/assets/images/space.jpg");
   color: #f8f4f6;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -149,7 +149,11 @@ a[data-project] {
 a[data-project]::before {
   position: absolute;
   content: attr(data-project);
-  z-index: auto;
+  z-index: 5;
+  font-size: 45px;
+  background-color: #f8f4f6;
+  color: #ff006e;
+  opacity: .8;
 }
 
 
