@@ -30,6 +30,8 @@ footer{
   justify-content: center;
   color: #ff006e;
   margin: 100px;
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a{
@@ -142,16 +144,18 @@ a{
 /* This is what added the titles to the images */
 a[data-project] {
   position: relative;
+  padding: 10px;
 }
 
 a[data-project]::before {
   position: absolute;
   content: attr(data-project);
   z-index: 5;
-  font-size: 45px;
+  font-size: 25px;
   background-color: #f8f4f6;
+  border: 5px solid #ff006e;
   color: #ff006e;
-  opacity: .8;
+  opacity: .9;
 }
 
 
