@@ -1,3 +1,5 @@
+
+/* when putting a image as a background for github, you have to do the ../ otherwise it won't go to github. Also the photos in html can NOT have a / at the beginning */
 body {
   background-image: url('../assets/images/space.jpg');
   color: #f8f4f6;
@@ -159,7 +161,7 @@ a[data-project]::before {
 }
 
 
-/* Still need to add media stuff! */
+/* Added media stuff, tested on own ipad and phone. */
 
 @media screen and (max-width: 992px) {
   section {
